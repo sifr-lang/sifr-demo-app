@@ -17,3 +17,5 @@ demo_json_v2 = { package = "sifr-demo-json", git = "https://github.com/sifr-lang
 
 [dev-dependencies]
 sifr-demo-test-support = { git = "https://github.com/sifr-lang/sifr-demo-test-support", tag = "v0.1.0" }
+
+[workspace]

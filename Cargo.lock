@@ -728,7 +728,7 @@ dependencies = [
 [[package]]
 name = "sifr-demo-http"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-http?tag=v0.1.0#b5deef705b7d0186727568aa3ac1fa0ac5437208"
+source = "git+https://github.com/sifr-lang/sifr-demo-http?tag=v0.1.0#cd3cd48170efbf9e1474449ca1228b44b384d8dd"
 dependencies = [
  "reqwest",
  "sifr-demo-json 0.1.0",
@@ -737,17 +737,17 @@ dependencies = [
 [[package]]
 name = "sifr-demo-json"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.1.0#d9619e5fa41468bcc99054f8abafc1cec27dde94"
+source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.1.0#20a3d8efc8ab1defa72c00206b9a47c363c63e1e"
 
 [[package]]
 name = "sifr-demo-json"
 version = "0.2.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.2.0#f2ac43dd8df4aff58c590831a2626eef1ea73125"
+source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.2.0#b6733d1f4b9abfd2bcfa852355442b15f0ed96c3"
 
 [[package]]
 name = "sifr-demo-test-support"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-test-support?tag=v0.1.0#3ed21a80140b594df3a93a3bed1c7365ec8af511"
+source = "git+https://github.com/sifr-lang/sifr-demo-test-support?tag=v0.1.0#b66077a69de3cae58e485fc101961782b524270a"
 
 [[package]]
 name = "slab"

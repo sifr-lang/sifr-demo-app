@@ -728,7 +728,7 @@ dependencies = [
 [[package]]
 name = "sifr-demo-http"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-http?tag=v0.1.0#cd3cd48170efbf9e1474449ca1228b44b384d8dd"
+source = "git+https://github.com/sifr-lang/sifr-demo-http?tag=v0.1.0#9289f7fa7a999e8534c76fbcfead7dc2ed457bdb"
 dependencies = [
  "reqwest",
  "sifr-demo-json 0.1.0",

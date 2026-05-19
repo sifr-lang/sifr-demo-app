@@ -11,7 +11,6 @@ demo_json_v1 = { dependency = "demo_json_v1", import = "demo_json_v1" }
 demo_json_v2 = { dependency = "demo_json_v2", import = "demo_json_v2" }
 
 [dependencies]
-sifr-demo-json = { git = "https://github.com/sifr-lang/sifr-demo-json", tag = "v0.1.0" }
 sifr-demo-http = { git = "https://github.com/sifr-lang/sifr-demo-http", tag = "v0.1.0" }
 demo_json_v1 = { package = "sifr-demo-json", git = "https://github.com/sifr-lang/sifr-demo-json", tag = "v0.1.0" }
 demo_json_v2 = { package = "sifr-demo-json", git = "https://github.com/sifr-lang/sifr-demo-json", tag = "v0.2.0" }

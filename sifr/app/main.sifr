@@ -1,4 +1,4 @@
-from demo_json.parse import parse_json
+from demo_json_v1.parse import parse_json
 from demo_http.client import get
 
 def main() -> Result[int, Error]:

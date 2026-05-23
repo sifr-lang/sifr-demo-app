@@ -1,6 +1,0 @@
-from demo_http import get
-from demo_json_v1 import parse_json
-from demo_json_v2 import from_legacy
-
-def main():
-    print("demo package imports ready")

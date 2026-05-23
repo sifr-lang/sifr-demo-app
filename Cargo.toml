@@ -2,13 +2,19 @@
 name = "sifr-demo-app"
 version = "0.1.0"
 edition = "2024"
+include = [
+  "Cargo.toml",
+  "Cargo.lock",
+  "sifr.toml",
+  "src/**/*.sifr",
+  "src/lib.rs",
+  "README.md"
+]
 
+# sifr-managed
 [package.metadata.sifr]
 manifest = "sifr.toml"
-
-[package.metadata.sifr.aliases]
-demo_json_v1 = { dependency = "demo_json_v1", import = "demo_json_v1" }
-demo_json_v2 = { dependency = "demo_json_v2", import = "demo_json_v2" }
+# end sifr-managed
 
 [dependencies]
 sifr-demo-http = { path = "../sifr-demo-http" }

@@ -1,0 +1,7 @@
+from demo_json_v1 import parse_json
+from demo_json_v2 import DemoJsonValue, from_legacy
+
+def migrate(raw: str) -> DemoJsonValue:
+    _parsed = parse_json(raw)
+    old = DemoJsonValue(value = 200)
+    return from_legacy(old)

@@ -11,11 +11,11 @@ demo_json_v1 = { dependency = "demo_json_v1", import = "demo_json_v1" }
 demo_json_v2 = { dependency = "demo_json_v2", import = "demo_json_v2" }
 
 [dependencies]
-sifr-demo-http = { git = "https://github.com/sifr-lang/sifr-demo-http", tag = "v0.1.0" }
-demo_json_v1 = { package = "sifr-demo-json", git = "https://github.com/sifr-lang/sifr-demo-json", tag = "v0.1.0" }
-demo_json_v2 = { package = "sifr-demo-json", git = "https://github.com/sifr-lang/sifr-demo-json", tag = "v0.2.0" }
+sifr-demo-http = { path = "../sifr-demo-http" }
+demo_json_v1 = { package = "sifr-demo-json", path = "../sifr-demo-json" }
+demo_json_v2 = { package = "sifr-demo-json", path = "../sifr-demo-json-v2" }
 
 [dev-dependencies]
-sifr-demo-test-support = { git = "https://github.com/sifr-lang/sifr-demo-test-support", tag = "v0.1.0" }
+sifr-demo-test-support = { path = "../sifr-demo-test-support" }
 
 [workspace]

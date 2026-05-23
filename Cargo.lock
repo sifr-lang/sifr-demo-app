@@ -728,7 +728,6 @@ dependencies = [
 [[package]]
 name = "sifr-demo-http"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-http?tag=v0.1.0#9289f7fa7a999e8534c76fbcfead7dc2ed457bdb"
 dependencies = [
  "reqwest",
  "sifr-demo-json 0.1.0",
@@ -737,17 +736,14 @@ dependencies = [
 [[package]]
 name = "sifr-demo-json"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.1.0#20a3d8efc8ab1defa72c00206b9a47c363c63e1e"
 
 [[package]]
 name = "sifr-demo-json"
 version = "0.2.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.2.0#b6733d1f4b9abfd2bcfa852355442b15f0ed96c3"
 
 [[package]]
 name = "sifr-demo-test-support"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-test-support?tag=v0.1.0#b66077a69de3cae58e485fc101961782b524270a"
 
 [[package]]
 name = "slab"
